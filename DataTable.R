@@ -1,3 +1,4 @@
+# cambio Git
 install.packages("data.table")
 library(data.table)
 iris
@@ -15,7 +16,7 @@ DTiris[, lapply(.SD, mean), by= Species]
 
 #Crear columna nueva por referencia
 DTiris[Sepal.Length>5, Sepal.Length.Tam:="Grande"]
-DTiris[Sepal.Length<=5, Sepal.Length.Tam:="Pequeño"]
+DTiris[Sepal.Length<=5, Sepal.Length.Tam:="PequeÃ±o"]
 DTiris
 
 #Borrar por referencia
